@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+* {
+    text-align: center;
+    color: rgb(230, 230, 230);
+}
+
+html {
+    background-color: #424b54;
+}
+
+header {
+    background-color: #D11149;
+    height: 24.4vh;
+}
+
+nav {
+    background-color: #ffffff;
+}
+
+input {
+    background-color: rgb(3, 74, 207);
+    border-radius: 10px;
+    border: 10px;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 2px 2px 1px black;
+}
+
+input:hover {
+    background-image: linear-gradient(to right, rgb(0, 0, 0), red);
+    box-shadow: 1.5px 1.5px 1px white;
+}
+
+main {
+    background-color: #6610F2;
+    height: 20vw;
+}
+
+footer {
+    background-color: #1A8FE3;
+}

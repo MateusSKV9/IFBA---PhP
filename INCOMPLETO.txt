@@ -1,0 +1,36 @@
+<?php
+$array=[];
+
+do {
+    echo "======== MENU ========\n (1) Registrar nome\n (2) Pesquisar nome\n (3) Listar todos os nomes \n (0) Sair\n";
+    
+    $op=readline("Digite sua escolha: ");
+    
+    switch($op) {
+        case 1:
+            $cod=readline("Digite o código: \n");
+            $nome=readline("Digite o nome: \n");
+            
+            $array[$cod]=$nome;
+            break;
+        case 2:
+            $nomePes=readline("Digite o nome: ");
+            if(in_array($nomePes, $array)) {
+                echo "$cod => $nomePes\n";
+            } else {
+                echo "Nome não cadastrado!\n";
+            }
+            break;
+        case 3:
+            foreach($array as $cod => $nome) {
+                echo "$cod ==> $nome\n";
+            }
+            break;
+        case 0:
+            echo "Fim do programa!\n";
+            break;
+        default:
+            echo "Opção inválida! Tente novamente.\n";
+    }
+}while($op!=0);
+?>
