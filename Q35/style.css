@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+html {
+    background-color: antiquewhite;
+    font-weight: bolder;
+}
+
+input {
+    margin: 10px;
+}
+
+.botoes {
+    background-color: rgb(93, 117, 255);
+    border: 0px;
+    color: white;
+    border-radius: 2px;
+}
+
