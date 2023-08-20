@@ -1,0 +1,172 @@
+@charset "UTF-8";
+
+body, ul, li, p {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(214, 214, 214);
+}
+
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+header > h1 {
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    width: 310px;
+    height: 310px;
+}
+
+img#resultado, img#filtro {
+    max-width: 100%;
+    width: 310px;
+    height: 410px;
+}
+
+.header {
+    background-color: #1d1e20;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+label {
+    color: white;
+    font-size: 20px;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    margin-left: 10px;
+}
+
+.menu li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+}
+
+/* FLEXBOX 1 */
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1350px;
+    margin: 0 auto; 
+}
+
+.flexR {
+    display: flex; 
+    max-width: 400px;
+    margin: 0 auto; 
+}
+
+.flex div {
+    flex: 1 1 200px; 
+    margin: 15px;
+    text-align: center;
+
+    color: white;
+    background-color: #000000;
+    box-shadow: 3px 3px 3.5px rgba(0, 0, 0, 0.549);
+}
+
+section#filtro {
+    flex: 1 1 200px; 
+    margin: 15px;
+    text-align: center;
+
+    color: white;
+    background-color: #000000;
+    box-shadow: 3px 3px 3.5px rgba(0, 0, 0, 0.549);
+}
+
+div#resultado {
+    /* flex: 1 1 200px;   */
+
+    margin: 15px;
+    text-align: center;
+    
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.578);
+}
+
+div#resultado > h1,h2,h3 {
+    margin: 0px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+div#resultado > li {
+    text-align: left;
+}
+
+h3#inicial {
+    margin: 10px;
+    text-align: right;
+    color: black;
+}
+
+li {
+    text-align: justify;
+    padding-left: 3px;
+    list-style: square;
+}
+
+button {
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    margin: 3px;
+    padding: 6px;
+    border-radius: 6px;
+}
+
+button#inicial {
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    margin: 3px;
+    padding: 6px;
+}
+
+button:hover, button#inicial:hover {
+    background-color: rgb(218, 32, 32);
+    color: white;
+}
+
+a#footer {
+    color: white;
+    text-decoration: underline;
+}
+
+a#footer:hover {
+    color: aquamarine;
+}
+
+footer {
+    background-color: #000000;
+    color: white;
+
+    text-align: center;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
